@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="file.css">
+<div class="survey">
+  <h1>Survey form</h1>
+<div id="first_p">
+   <p>Improvements in Ninja Learner:</p>
+</div>
+  <form action="/action_page.php" id="survey-form">
+   <div class="row">
+     <div class="col-5">
+      <label id="name-label" for="name">Name</label>
+     </div>
+     <div class="col-10">
+      <input type="text" placeholder="Name"><br /><br />
+     </div>
+   </div>
+   <div class="row">
+    <div class="col-5">
+     <label id="email-label" for="email">Email</label>
+    </div>
+    <div class="col-10">
+     <input type="email" placeholder="Email"><br /><br />
+    </div>
+   </div>
+   <div class="row">
+     <div class="col-5">
+      <label id="number-label" for="number">Number</label>
+    </div>
+    <div class="col-10">
+     <input type="number" min="100" max="70000" placeholder="Number"><br /><br />
+   </div>
+   </div>
+   <div class="row">
+     <div class="col-5">
+      <label>Age</label>
+    </div>
+    <div class="col-10">
+     <input type="number" placeholder="Age"><br /><br />
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-5">
+     <label id="country">Country</label>
+    </div>
+    <div class="col-10">
+     <input type="" placeholder="Country"><br /><br />
+    </div>
+   </div>
+   <div class="row">
+     <div class="col-5">
+      <label for="date">When did you join Ninja learner?</label>
+     </div>
+     <div class="col-10">
+      <input type="date"><br /><br /><br />
+     </div>
+   </div>
+
+    <label for="">How easy for you to use our site? </label>
+     <input type="radio" name="number" />1
+     <input type="radio" name="number" />2
+     <input type="radio" name="number" />3
+     <input type="radio" name="number" />4
+     <input type="radio" name="number" />5
+     <p><i>(1 - easy, 5 - difficult)</i></p>
+     <br />
+
+       <label for="">Languages that you know: </label><br /><br />
+     <input type="checkbox" name="languages" value="English">English
+     <select>
+       <option value="elementary">Elementary</option>
+       <option value="intermediate">Intermediate</option>
+       <option value="advanced">Advanced</option>
+       <option value="nativelanguage">Native language</option>
+     </select><br /><br />
+
+     <input type="checkbox" name="languages" value="Spanish">Spanish
+     <select>
+       <option value="elementary">Elementary</option>
+       <option value="intermediate">Intermediate</option>
+       <option value="advanced">Advanced</option>
+       <option value="nativelanguage">Native language</option>
+     </select><br /><br />
+
+     <input type="checkbox" name="languages" value="Ukrainian">Ukrainian
+     <select>
+       <option value="elementary">Elementary</option>
+       <option value="intermediate">Intermediate</option>
+       <option value="advanced">Advanced</option>
+       <option value="nativelanguage">Native language</option>
+     </select><br /><br />
+
+     <input type="checkbox" name="languages" value="French">French
+     <select>
+       <option value="elementary">Elementary</option>
+       <option value="intermediate">Intermediate</option>
+       <option value="advanced">Advanced</option>
+       <option value="nativelanguage">Native language</option>
+     </select><br /><br />
+
+     <input type="checkbox" name="else_languages" value="else">
+     <label for=""></label><input type="text" placeholder="other language">
+     <select>
+       <option value="elementary">Elementary</option>
+       <option value="intermediate">Intermediate</option>
+       <option value="advanced">Advanced</option>
+       <option value="nativelanguage">Native language</option>
+     </select><br /><br />
+
+     <input type="checkbox" name="else_languages" value="else">
+    <label for=""></label><input type="text" placeholder="other language">
+     <select>
+       <option value="elementary">Elementary</option>
+       <option value="intermediate">Intermediate</option>
+       <option value="advanced">Advanced</option>
+       <option value="nativelanguage">Native language</option>
+     </select><br /><br />
+
+    <label for="" id="dropdowm">On which language the site need to translate? </label>
+     <select>
+       <option selected="selected">Language</option>
+       <option value="chinese">Chinese</option>
+       <option value="hindi">Hindi</option>
+       <option value="arabic">Arabic</option>
+       <option value="russian">Russian</option>
+       <option value="german">German</option>
+       <option value="else">Else</option>
+     </select><br /><br />
+
+       <label for="">What do you want to see on our site more?</label><br />
+     <div id="part-2">
+      <input type="radio" name="music">Music<br />
+      <input type="radio" name="video">Video<br />
+      <input type="radio" name="comics">Comics<br />
+      <input type="radio" name="books">Books<br />
+      <input type="radio" name="lessons">Lessons<br />
+      <input type="radio" name="games">Games<br />
+      <input type="radio" name="vocabularies">Vocabularies<br /><br />
+     </div>
+     <label for="">Comments:</label><br /><br />
+     <textarea id="comment" name="comment" placeholder="Enter your comment here"></textarea><br />
+
+     <button type="submit" value="submit" id="submit">Submit</button>
+
+   </form>
+ </div>
+
+
+
+</body>
+</html>

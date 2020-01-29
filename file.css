@@ -1,0 +1,71 @@
+.survey {
+  height: 1495px;
+  width: 55%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left:20%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#first_p {
+  font-family: Bookman Old Style;
+}
+
+label {
+  padding: 12px 12px 12px 0px;
+  font-size: 16px;
+}
+
+input, select, textarea  {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-5 {
+  float: left;
+  width: 25%;
+  margin-top: 15px;
+}
+
+.col-10 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+input[name=languages] {
+ width: 45px;
+ margin-left: -11px;
+}
+
+#part-2 {
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+#comment {
+  height: 100px;
+  width: 450px;
+}
+
+button {
+  color: white;
+  background-color: rgb(38, 56, 60);
+  padding: 12px 30px;
+  margin-right: 70px;
+  border: none;
+  border-radius: 4px;
+  float: right;
+}
